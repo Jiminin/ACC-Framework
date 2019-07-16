@@ -16,7 +16,7 @@ with open('cfg/radat.csv') as csvfile:
 
 bottle.TEMPLATE_PATH.insert(0, "C:/Users/Jimi/Documents/Koodaus/ACC Framework/views")
 
-# Mitä arvoja lähetetään selaimeen ja mitä sieltä pyydetään täyttämään
+# Mitä arvoja lähetetään selaimeen ja mitä sieltä pyydetään täyttämään/valitsemaan
 @route('/')
 @view('race_template.tpl')
 def index():
