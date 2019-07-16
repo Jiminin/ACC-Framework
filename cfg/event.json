@@ -1,0 +1,28 @@
+{
+  "track": "spa",
+  "eventType": "E_6h",
+  "preRaceWaitingTimeSeconds": 30,
+  "sessionOverTimeSeconds": 180,
+  "ambientTemp": 28,
+  "trackTemp": 30,
+  "cloudLevel": 0.0,
+  "rain": 0.0,
+  "weatherRandomness": 0,
+  "configVersion": 1,
+  "sessions": [
+    {
+      "hourOfDay": 12,
+      "dayOfWeekend": 1,
+      "timeMultiplier": 1,
+      "sessionType": "Q",
+      "sessionDurationMinutes": 40
+    },
+    {
+      "hourOfDay": 14,
+      "dayOfWeekend": 1,
+      "timeMultiplier": 1,
+      "sessionType": "R",
+      "sessionDurationMinutes": 30
+    }
+  ]
+}
